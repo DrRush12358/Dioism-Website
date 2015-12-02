@@ -1,0 +1,8 @@
+{
+    "name": "Book_of_Dio_Website",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "James",
+    "contributors": [],
+    "dependencies": {}
+}
