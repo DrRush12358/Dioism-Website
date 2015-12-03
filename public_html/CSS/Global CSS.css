@@ -12,9 +12,11 @@ body {
     background-color: green;
 }
 
+/*Navbox CSS */
 .navbox {
     margin-right: auto;
-    border: 2px solid gold
+    border: 4px solid gold;
+    border-radius: 25px;
 }
 .navbox a {
     color: gold;
@@ -22,4 +24,14 @@ body {
 
 .navbox a:visted {
     color: goldenrod;
+}
+
+.navbox a:hover {
+    font-weight: bolder;
+}
+
+/*Steamroller Animation*/
+.steamroller {
+    margin-right: auto;
+    
 }
