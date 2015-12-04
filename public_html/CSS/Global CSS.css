@@ -18,6 +18,12 @@ body {
     border: 4px solid gold;
     border-radius: 25px;
 }
+
+.navbox h2 {
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+}
 .navbox a {
     color: gold;
 }
@@ -30,8 +36,18 @@ body {
     font-weight: bolder;
 }
 
+.contact {
+    font-size: 12px;
+}
+
 /*Steamroller Animation*/
 .steamroller {
-    margin-right: auto;
+    float: right;
     
+}
+
+/*Changes the text color to gold on the pages index, about, & contact*/
+
+.text-sand {
+    color: gold;
 }
