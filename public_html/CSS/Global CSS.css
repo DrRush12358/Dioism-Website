@@ -12,33 +12,11 @@ body {
     background-color: green;
 }
 
-/*Navbox CSS */
-.navbox {
-    margin-right: auto;
-    border: 4px solid gold;
-    border-radius: 25px;
+/*Navbar CSS */
+.navbar-brand {
+    margin-top: -15px;
 }
 
-.navbox h2 {
-    color: gold;
-    text-align: center;
-    font-weight: bold;
-}
-.navbox a {
-    color: gold;
-}
-
-.navbox a:visted {
-    color: goldenrod;
-}
-
-.navbox a:hover {
-    font-weight: bolder;
-}
-
-.contact {
-    font-size: 12px;
-}
 
 /*Steamroller Animation*/
 .steamroller {
@@ -50,4 +28,16 @@ body {
 
 .text-sand {
     color: gold;
+}
+
+.banner {
+    background-color: gold;
+}
+
+#ctr-img {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%
 }

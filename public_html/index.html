@@ -9,43 +9,108 @@ and open the template in the editor.
         <title>The Scriptures | Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="CSS/Global CSS.css" type="text/css">
+        <link rel="stylesheet" href="CSS/Global CSS.css" type="text/css"/>
+        <link rel="stylesheet" href="CSS/Global CSS.css" type="text/css">
+
+
 
 
 
     </head>
     <body>
-        <!-- Left hand navbox -->
-        <div class='container'>
-            <div class = 'col-md-3 navbox'>
-                <h2 class="row">Navigation</h2>
-                <img class= 'row' width='276' height='276' src='/Book%20of%20Dio%20Website/Images/Navbox-head.jpg' />
-                <a class= 'row' href='/Book%20of%20Dio%20Website/index.html'>Home</a>
-                <a class= 'row' href='/Book%20of%20Dio%20Website/HTML/Book.html'>The Book of Dio</a>
-                <a class= 'row' href='/Book%20of%20Dio%20Website/HTML/Circles.html'>The Circles of Dio</a>
-                <a class= 'row' href='/Book%20of%20Dio%20Website/HTML/Trumpets.html'>The Trumpets of Dio</a>
-                <a class= 'row' href='/Book%20of%20Dio%20Website/HTML/Scripture.html'>The Scripture of Truth</a>
-                <a class= 'row' href='/Book%20of%20Dio%20Website/HTML/Chronicles.html'>The Chronicles of Dio</a>
-                <div class="row">
-                    <a class='contact col-lg-2' href='HTML/About.html'>About us</a>
-                    <span class='col-lg-1'></span>
-                    <a class="contact col-lg-2" href="HTML/Contact.html">Contact us</a>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/Book%20of%20Dio%20Website/index.html"><img width='50' height='50' src='/Book%20of%20Dio%20Website/Images/Navbox-head.jpg' alt='Link to mainpage'/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="forum/index.php">Forum<span class="sr-only">(current)</span></a></li>
+                <li><a href='http://dioism.wikia.com'>Wiki</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Scriptures <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href='HTML/Book.html'>The Book of Dio</a></li>
+                    <li><a href='HTML/Circles.html'>The Circles of Dio</a></li>
+                    <li><a href='HTML/Trumpets.html'>The Trumpets of Dio</a></li>
+                    <li><a href='HTML/Scripture.html'>The Scripture of Truth</a></li>
+                    <li><a href='HTML/Chronicles.html'>The Chronicles of Dio</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href='HTML/About.html'>About us</a></li>
+                    <li><a href="HTML/Contact.html">Contact us</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+        <!--Main content section-->
+        <div class='container-fluid'>
+            <div class="row">
+                <!--Empty spacer coloumn-->
+                <div class="col-md-1"></div>
+                
+                <!-- Left Banner -->
+                <div class='col-md-3 banner'>
+                    <h2>Mensa Origins</h2>
+                    <p>Stuff about Mensa's Origins
+                    blah...</p>
+                    
+                    <h2>About Us</h2>
+                    <p>General info & random shit</p>
                 </div>
-            </div>
-        </div>
+                
+                <!-- Center Image -->
+                <div class="col-md-4">
+                    <img id='ctr-img' src='Images/Mensa-Flag.jpg' alt='Mensa Flag'/>
+                </div>
+                
+                <!-- Right Banner -->
+                <div class="col-md-3 banner">
+                    <h2>Dioism</h2>
+                    <p>WRYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+                        YYYYYYYYYYYYYYYYYYY!</p>
+                    
+                    <h2>Joining</h2>
+                    <p>Follow these simple steps to join Mensa HQ;</p>
+                    <ol>
+                        <li>Don't Suck</li>
+                        <li>Embrace Dio</li>
+                        <li>?????</li>
+                        <li>Profit!</li>
+                    </ol>
+                </div>
+                
+                <!-- Spacer Colomn -->
+                <div class="col-md-1"></div>
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
         
-        <!--Steamroller animation -->
-        <div class="container">
-            <div class="col-lg-9 steamroller">
-                <img width="715" height='517.5' src="/Book%20of%20Dio%20Website/Images/Wry-Steamroller.gif"/>
-            </div>
-        </div>
+
         
-        <!-- "It was me Dio" video. -->
-        <iframe width="480" height="360" src="https://www.youtube.com/embed/l-NidcMz_xk" frameborder="0" allowfullscreen></iframe>
         
-        <script type='text/javascript' src='/JS/jquery-2.1.4.js'></script>
-        <script type="text/javascript" src="/JS/Steamroller.js"></script>
+        <!--Script calls for jQuery & Bootstrap.-->
+        <script src="/Book%20of%20Dio%20Website/JS/jquery-2.1.4.js" type="text/javascript"></script>
+        <script src="/Book%20of%20Dio%20Website/JS/bootstrap.min.js" type="text/javascript"></script>
+
     </body>
 </html>
